@@ -29,7 +29,7 @@ class Records{
     int no_values = 0; //You can use this to check if you've don't have any more tuples
     int number_of_emp_records = 0; // Tracks number of emp_records you have on the buffer
     int number_of_dept_records = 0; //Track number of dept_records you have on the buffer
-    bool operator<(const Records &r) {
+    bool operator<(const Records &r) const {
             // if (dept_record.managerid > 0) {
             //     return dept_record.managerid < r.dept_record.managerid;
             // }
